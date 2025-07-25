@@ -1,0 +1,107 @@
+.box {
+  box-sizing: content-box;
+  background-color: black;
+  padding: 20px;
+  min-width: 360px;
+}
+.logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.web {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+.web h1 {
+  color: #26a3c9;
+  font-size: 2.5em;
+  margin-bottom: 25px;
+}
+header {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+button {
+  background-color: #f04c2f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.web p {
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  color: #0000009c;
+}
+.blue {
+  color: #26a3c9;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.cercheranno p {
+  color: #0000009c;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+}
+.cercheranno {
+  line-height: 2;
+  padding: 20px;
+}
+.note {
+  border-radius: 50%;
+}
+.red {
+  background-color: red;
+  box-sizing: content-box;
+  height: 270px;
+  padding: 20px;
+  min-width: 400px;
+}
+.red {
+  color: white;
+  text-align: center;
+  margin-bottom: 5em;
+}
+.red h2 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 0.5em;
+}
+.red p {
+  font-style: italic;
+
+  color: #ffffff96;
+  font-size: 1.2em;
+  line-height: 1;
+}
+.bott {
+  margin-bottom: 2em;
+}
+.ft {
+  width: 110%;
+}
+.card {
+  color: #26a3c9;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.carte p {
+  text-align: center;
+  color: #06060674;
+  margin-bottom: 4em;
+}
