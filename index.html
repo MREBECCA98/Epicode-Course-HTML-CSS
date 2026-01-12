@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Corso Web Developer - Epicode school</title>
-    <link rel="stylesheet" href="CSS/reset.css" />
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="assets/CSS/reset.css" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   </head>
   <body>
     <!--logo-->
     <header>
       <div class="box">
-        <div class="logo"><img src="img/logo.png" alt="logo" width="200px" /></div>
+        <div class="logo"><img src="assets/img/logo.png" alt="logo" width="200px" /></div>
       </div>
 
       <div class="web">
@@ -31,7 +33,7 @@
         <h3 class="blue">Lavora dove vuoi</h3>
         <p>Lavora da casa, in riva al mare o in montagna</p>
         <div class="notebook">
-          <img class="note" src="img/notebook.jpg" alt="note" />
+          <img class="note" src="assets/img/notebook.jpg" alt="note" />
         </div>
         <h3 class="blue">Scegli il tuo ruolo</h3>
         <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
@@ -46,39 +48,42 @@
         <p class="bott">CEO, Epicode</p>
       </section>
       <section class="carte">
-        <div>
-          <img class="ft" src="img/foto1.jpg" alt="fto1" />
+        <div class="card-container">
+          <img class="ft" src="assets/img/foto1.jpg" alt="Il tuo PC" />
           <h3 class="card">Il tuo PC</h3>
           <p>Se vuoi diventare developer è l’unico strumento di cui hai bisogno.</p>
         </div>
-        <div>
-          <img class="ft" src="img/foto2.jpg" alt="fto2" />
+        <div class="card-container">
+          <img class="ft" src="assets/img/foto2.jpg" alt="Impara ora" />
           <h3 class="card">Impara ora</h3>
           <p>Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.</p>
         </div>
-        <div>
-          <img class="ft" src="img/foto3.jpg" alt="fto3" />
+        <div class="card-container">
+          <img class="ft" src="assets/img/foto3.jpg" alt="Lavora subito" />
           <h3 class="card">Lavora subito</h3>
-          <p>Sappiamo cosa vogliono le aziende, perché lavoriamo</p>
+          <p>Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
         </div>
       </section>
     </main>
     <!--contattaci-->
-    <footer>
-      <h2 class="contattaci"></h2>
+    <footer class="footer">
+      <h2 class="contattaci">Contattaci</h2>
       <address>
         <p>
-          <a href=""></a>
+          <i class="fas fa-phone"></i>
+          <a href="tel:+3911223456">(+39) 11223456</a>
         </p>
         <p>
-          <a href=""></a>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:info@epicode.school">info@epicode.school</a>
         </p>
         <p>
-          <a href=""></a>
+          <i class="fas fa-map-marker-alt"></i>
+          <a href="#">Via Appia 1 - 00100 Roma (RM)</a>
         </p>
       </address>
       <hr />
-      <p></p>
+      <p class="copyright">© 2024 Epicode School - All Rights Reserved</p>
     </footer>
   </body>
 </html>
